@@ -52,6 +52,10 @@ color:white;
 /* .box{
  
 } */
+.userName span{
+  background-color: white;
+  color:black;
+}
 .bgColor{
   background-color: white;
   color:black;
