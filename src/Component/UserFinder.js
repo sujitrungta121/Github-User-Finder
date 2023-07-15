@@ -46,15 +46,15 @@ const UserFinder = () => {
           return(
   <div className="box">
         <div className="userDetails">
-        <div className="userAvatar bgColor"><img src={user.avatar_url}/></div>
+                <div className="userAvatar "><img src={user.avatar_url} className="img" /></div>
         <span className="userName bgColor ">
         <span>UserName</span>
        <span> {user.login}</span>
         </span>
 </div>
         <div className="repo">
-        <span className="userFol bgColor">Repositories</span>
-        <span className="userLike bgColor"><a href={user.repos_url}></a>Click to see my Repo</span>
+                <div className="userFol bgColor">Repositories</div>
+                <div className="userLike bgColor"><a href={user.repos_url}>Click to see my Repo</a></div>
         </div>
 
         </div>
